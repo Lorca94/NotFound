@@ -1,0 +1,95 @@
+/** Global **/
+html{
+    box-sizing: border-box;
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header__title{
+    font-weight: 700;
+    line-height: 25.18px;
+    margin: 2rem 0 0 2.4rem;
+}
+
+.scarecrow{
+    background-image: url(../img/Scarecrow.png);
+    width: 286.83px;
+    height: 238px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 2rem 0 0 2.4rem;
+}
+
+.notfound__title{
+    width: 350px;
+    height: 142px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #333;
+    margin: 2rem 0 0 2.4rem;
+}
+
+.notfound__text{
+    width: 328px;
+    height: 81px;
+
+    font-family: monospace;
+    font-size: normal;
+    font-weight: 400;
+    margin: 2rem 0 0 2.4rem;
+}
+
+.notfound__button{
+    position:relative;
+    display: flex;
+    left: 24px;
+    width: 216px;
+    height: 68px;
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin: 2rem 0 0 2.4rem;
+}
+
+@media (min-width: 768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .scarecrow{
+        width: 539.22px;
+        height: 447.43px;
+    }
+    .notfound__title{
+        width: 586px;
+        height: 190px;
+        font-size: 34px;
+        line-height: 95px;
+    }
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+}
